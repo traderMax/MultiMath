@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>MultiMath</title>
+</head>
+
+<body>
+    <div class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">MultiMath</div>
+        </div>
+    </div>
+    <div class="form-horizontal" id="nameform">
+        <div class="form-group">
+            <label for="playername" class="col-sm-2 control-label">Player Name</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="playername" size="20" placeholder="Please enter your name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="factor" class="col-sm-2 control-label">Factor</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="factor" size="20" placeholder="Please enter your name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="problemCount" class="col-sm-2 control-label">Number of Problems</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="problemCount" size="20" placeholder="Please enter your name">
+            </div>
+        </div>
+        <button id="startGame" class="btn">Start Game</button>
+    </div>
+    <div class="form-horizontal" id="game">
+    </div>
+    <div class="col-sm-offset-2 col-sm-10" id="scores">
+        <h2>Scoreboard</h2>
+        <h4>No Scores Yet</h4>
+    </div>
+    <div id="messages" class="col-sm-offset-2 col-sm-10"></div>
+    <!-- Add script below -->
+    <script src="app/app.js"></script>
+</body>
+
+</html>
